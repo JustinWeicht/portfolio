@@ -263,4 +263,9 @@ svg {
     margin-top: 3.3rem;
     padding-left: 45%;
   }
+
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
