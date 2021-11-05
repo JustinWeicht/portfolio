@@ -97,47 +97,8 @@ header a {
   color: var(--dark);
 }
 
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-button[disabled] {
-  cursor: default;
-  opacity: 0.8;
-}
-
 span[role='img'] {
   cursor: default;
-}
-
-form {
-  padding: 30px 20% 50px;
-}
-
-input {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid var(--dark);
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-}
-
-input:focus {
-  border: 1px solid var(--secondary);
-  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
 
 ul {
@@ -154,13 +115,6 @@ nav a:hover {
 
 nav li {
   cursor: pointer;
-}
-
-textarea {
-  width: 500px;
-  height: 120px;
-  border: 3px solid #cccccc;
-  padding: 5px;
 }
 
 .container {
@@ -254,53 +208,6 @@ textarea {
   padding-bottom: var(--spacing-two);
 }
 
-.card {
-  width: 25%;
-  text-align: center;
-}
-
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
-button {
-  background: var(--primary);
-  border: 0;
-  border-radius: 5px;
-  color: #fff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 30px;
-  padding: 10px 15px;
-}
-
-.navActive {
-  color: var(--secondary);
-}
-
 .icon {
   color: #888888;
   font-size: medium;
@@ -333,21 +240,28 @@ svg {
 .column img {
   vertical-align: middle;
   width: 100%;
-  min-height: 20rem;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  /* .column {
     flex: 50%;
     max-width: 50%;
-  }
+  } */
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  h1 {
+    font-size: 1.25rem;
+  }
+  
+  /* .column {
     flex: 100%;
     max-width: 100%;
-  }
+  } */
 }

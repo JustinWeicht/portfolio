@@ -5,8 +5,7 @@ function About() {
       <main>
       <div className="my-2">
         <h1>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie.
+          Hi, my name is Justin. I'm a full-stack web developer.
         </h1>
       </div>
       </main>
