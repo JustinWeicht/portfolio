@@ -256,10 +256,10 @@ svg {
   }
 
   body {
-    font-size: 12px;
+    font-size: 14px;
   }
   
   .flex-row-nav {
-    padding-left: 30%;
+    margin-top: 3.3rem;
   }
 }
