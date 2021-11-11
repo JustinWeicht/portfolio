@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4c8dd11f.chunk.css",
-    "main.js": "/portfolio/static/js/main.970bebe6.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.970bebe6.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.0397e36f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0397e36f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.36ba0169.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.36ba0169.js.map",
     "static/js/2.fbc0b769.chunk.js": "/portfolio/static/js/2.fbc0b769.chunk.js",
@@ -20,13 +20,13 @@
     "static/media/5.jpg": "/portfolio/static/media/5.06356fe3.jpg",
     "static/media/6.jpg": "/portfolio/static/media/6.ae5274f0.jpg",
     "static/media/7.jpg": "/portfolio/static/media/7.2e3778a9.jpg",
-    "static/media/Justin-Weicht.f85b1860.pdf": "/portfolio/static/media/Justin-Weicht.f85b1860.pdf",
+    "static/media/Justin-Weicht.a73a85cc.pdf": "/portfolio/static/media/Justin-Weicht.a73a85cc.pdf",
     "static/media/jw-name.2de99061.png": "/portfolio/static/media/jw-name.2de99061.png"
   },
   "entrypoints": [
     "static/js/runtime-main.36ba0169.js",
     "static/js/2.fbc0b769.chunk.js",
     "static/css/main.4c8dd11f.chunk.css",
-    "static/js/main.970bebe6.chunk.js"
+    "static/js/main.0397e36f.chunk.js"
   ]
 }
