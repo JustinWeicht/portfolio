@@ -43,7 +43,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.work-title-text {
   font-family: 'Poiret One', cursive;
   font-weight: 500;
   margin: 5px 0;
@@ -161,13 +162,6 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
-}
-
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .flex-row {
@@ -331,9 +325,87 @@ svg {
 }
 
 .column img {
+  background-color: #000000;
   vertical-align: middle;
   width: 100%;
   min-height: 20rem;
+}
+
+.img-container {
+  position: relative;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.work-title {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.top-button {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bot-button {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-container:hover img {
+  transition: .5s ease;
+  opacity: 0;
+}
+
+.img-container:hover .work-title {
+  opacity: 1;
+}
+
+.img-container:hover .top-button {
+  opacity: 1;
+}
+
+.img-container:hover .bot-button {
+  opacity: 1;
+}
+
+.work-title-text {
+  background-color: transparent;
+  color: black;
+  font-size: 2rem;
+  padding: 16px 32px;
+}
+
+.button-text {
+  background-color: transparent;
+  color: grey;
+  font-size: 18px;
+  padding: 16px 32px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
