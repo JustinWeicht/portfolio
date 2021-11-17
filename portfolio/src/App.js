@@ -20,14 +20,14 @@ function App() {
 
   return (
     <div>
-    <body>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Nav>
+      <body>
+        <Nav
+          categories={categories}
+          setCurrentCategory={setCurrentCategory}
+          currentCategory={currentCategory}
+          contactSelected={contactSelected}
+          setContactSelected={setContactSelected}
+        ></Nav>
         <About></About>
         <Gallery currentCategory={currentCategory}></Gallery>
       </body>
