@@ -7,7 +7,9 @@ const PhotoList = ({ category }) => {
 
         {/* Bardic */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/0.jpg").default} className="image" alt="gallery" />
+          <a href="http://bardic.herokuapp.com/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/0.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Bardic</div>
           </div>
@@ -21,7 +23,9 @@ const PhotoList = ({ category }) => {
 
         {/* Tech Blog */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/4.jpg").default} className="image" alt="gallery" />
+          <a href="https://module-14-tech-blog.herokuapp.com/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/4.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Tech&nbsp;Blog</div>
           </div>
@@ -38,7 +42,9 @@ const PhotoList = ({ category }) => {
 
         {/* Booklyst */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/1.jpg").default} className="image" alt="gallery" />
+          <a href="https://booklyst-project.herokuapp.com/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/1.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Booklyst</div>
           </div>
@@ -52,7 +58,9 @@ const PhotoList = ({ category }) => {
 
         {/* Pizza Hunt */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/5.jpg").default} className="image" alt="gallery" />
+          <a href="https://creepy-nightmare-85054.herokuapp.com/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/5.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Pizza&nbsp;Hunt</div>
           </div>
@@ -69,7 +77,9 @@ const PhotoList = ({ category }) => {
 
         {/* Nutriquotient */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/2.jpg").default} className="image" alt="gallery" />
+          <a href="https://foodisfuel.github.io/gp5_project1/index.html" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/2.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Nutriquotient</div>
           </div>
@@ -83,7 +93,9 @@ const PhotoList = ({ category }) => {
 
         {/* Taskmaster Pro */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/6.jpg").default} className="image" alt="gallery" />
+          <a href="https://justinweicht.github.io/taskmaster-pro/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/6.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Taskmaster&nbsp;Pro</div>
           </div>
@@ -100,7 +112,9 @@ const PhotoList = ({ category }) => {
 
         {/* Budget Tracker */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/4.jpg").default} className="image" alt="gallery" />
+          <a href="https://module-19-budget-tracker.herokuapp.com/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/3.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Budget&nbsp;Tracker</div>
           </div>
@@ -114,7 +128,9 @@ const PhotoList = ({ category }) => {
 
         {/* Run Buddy */}
         <div className="img-container">
-          <img src={require("../../assets/small/work/7.jpg").default} className="image" alt="gallery" />
+          <a href="https://JustinWeicht.github.io/run-buddy/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/7.jpg").default} className="image" alt="gallery" />
+          </a>
           <div className="work-title">
             <div className="work-title-text">Run&nbsp;Buddy</div>
           </div>

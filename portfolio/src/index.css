@@ -1,7 +1,7 @@
 main {
   margin: 0 auto;
   max-width: 100%;
-  padding: 30px 15% 50px;
+  padding: 20px 15% 50px;
 }
 
 :root {
@@ -311,7 +311,6 @@ svg {
   background-color: transparent;
   color: black;
   font-size: 2rem;
-  padding: 16px 32px;
 }
 
 .button-text {
