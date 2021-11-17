@@ -1,7 +1,7 @@
 main {
   margin: 0 auto;
   max-width: 100%;
-  padding: 20px 15% 50px;
+  padding: 30px 15% 75px;
 }
 
 :root {
@@ -132,7 +132,6 @@ nav li {
 
 .flex-row {
   display: flex;
-  flex-wrap: wrap;
   padding-inline-start: 0px;
 }
 
@@ -329,6 +328,12 @@ svg {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+  main {
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0px 15% 20px;
+  }
+
   h1 {
     font-size: 1.25rem;
   }
