@@ -4,9 +4,9 @@ function About() {
     <section className="my-5">
       <main>
       <div className="my-2">
-        <h1>
-          Hi, my name is Justin. I'm a full-stack web developer.
-        </h1>
+        <p className="about-text">
+          Hi, my name is Justin. I'm a full-stack developer.
+        </p>
       </div>
       </main>
     </section>
