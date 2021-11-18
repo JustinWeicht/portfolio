@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoImage from '../../assets/cover/jw-name.png';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import Resume from '../../assets/cover/Justin-Weicht.pdf';
+import Resume from '../../assets/cover/justin-weicht-resume.pdf';
 
 function Nav(props) {
   const {

@@ -5,18 +5,18 @@ const PhotoList = ({ category }) => {
     <div className="row">
       <div className="column">
 
-        {/* Bardic */}
+        {/* Booklyst */}
         <div className="img-container">
-          <a href="http://bardic.herokuapp.com/" rel="noreferrer" target="_blank">
-            <img src={require("../../assets/small/work/0.jpg").default} className="image" alt="gallery" />
+          <a href="https://booklyst-project.herokuapp.com/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/1.jpg").default} className="image" alt="gallery" />
           </a>
           <div className="work-title">
-            <div className="work-title-text">Bardic</div>
+            <div className="work-title-text">Booklyst</div>
           </div>
-          <a href="http://bardic.herokuapp.com/" rel="noreferrer" target="_blank" className="top-button">
+          <a href="https://booklyst-project.herokuapp.com/" rel="noreferrer" target="_blank" className="top-button">
             <div className="button-text">Website</div>
           </a>
-          <a href="https://github.com/FanCinco/Bardic" rel="noreferrer" target="_blank" className="bot-button">
+          <a href="https://github.com/group3uoft/booklyst" rel="noreferrer" target="_blank" className="bot-button">
             <div className="button-text">GitHub</div>
           </a>
         </div>
@@ -40,18 +40,18 @@ const PhotoList = ({ category }) => {
       </div>
       <div className="column">
 
-        {/* Booklyst */}
+        {/* Bardic */}
         <div className="img-container">
-          <a href="https://booklyst-project.herokuapp.com/" rel="noreferrer" target="_blank">
-            <img src={require("../../assets/small/work/1.jpg").default} className="image" alt="gallery" />
+          <a href="http://bardic.herokuapp.com/" rel="noreferrer" target="_blank">
+            <img src={require("../../assets/small/work/0.jpg").default} className="image" alt="gallery" />
           </a>
           <div className="work-title">
-            <div className="work-title-text">Booklyst</div>
+            <div className="work-title-text">Bardic</div>
           </div>
-          <a href="https://booklyst-project.herokuapp.com/" rel="noreferrer" target="_blank" className="top-button">
+          <a href="http://bardic.herokuapp.com/" rel="noreferrer" target="_blank" className="top-button">
             <div className="button-text">Website</div>
           </a>
-          <a href="https://github.com/group3uoft/booklyst" rel="noreferrer" target="_blank" className="bot-button">
+          <a href="https://github.com/FanCinco/Bardic" rel="noreferrer" target="_blank" className="bot-button">
             <div className="button-text">GitHub</div>
           </a>
         </div>
