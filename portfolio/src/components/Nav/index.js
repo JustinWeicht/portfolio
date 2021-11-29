@@ -1,7 +1,6 @@
 import React from 'react';
 import LogoImage from '../../assets/cover/jw-name.png';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import Resume from '../../assets/cover/justin-weicht-resume.pdf';
 
 function Nav(props) {
   const {
@@ -38,7 +37,7 @@ function Nav(props) {
           </li>
           <li className="mx-1 text">
             <span>
-              <a href={Resume} rel="noreferrer" target="_blank">Resume</a>
+              <a href="https://drive.google.com/file/d/1sFqpRz78aIXf7i89EEq83iYCA27vysJS/view?usp=sharing" rel="noreferrer" target="_blank">Resume</a>
             </span>
           </li>
         </ul>
